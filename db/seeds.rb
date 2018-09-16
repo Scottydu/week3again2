@@ -12,42 +12,47 @@
 
 
 Event.create([{
+  name: Faker::Kpop.ii_groups,
   starts_at: '14:00',
   ends_at: '15:00',
   venue_id: 'Rose Garden',
-  hero_image_url: Faker::Avatar.image("50x50"),
+  hero_image_url: Faker::LoremPixel.image("50x60", true),
   description: Faker::Lorem.sentences(7),
   }])
 
 Event.create([{
+  name: Faker::Kpop.ii_groups,
   starts_at: '18:00',
   ends_at: '19:00',
   venue_id: 'Opera House',
-  hero_image_url: Faker::Avatar.image("50x50"),
+  hero_image_url: Faker::LoremPixel.image("50x60", true),
   description: Faker::Lorem.sentences(6),
   }])
 
 Event.create([{
+  name: Faker::Kpop.ii_groups,
   starts_at: '08:00',
   ends_at: '10:00',
   venue_id: 'Rose Garden',
-  hero_image_url: Faker::Avatar.image("50x50"),
+  hero_image_url: Faker::LoremPixel.image("50x60", true),
   description: Faker::Lorem.sentences(4),
   }])
 
 Event.create([{
+  name: Faker::Kpop.ii_groups,
   starts_at: '15:00',
   ends_at: '16:00',
   venue_id: 'Zee Zees',
-  hero_image_url: Faker::Avatar.image("50x50"),
+  hero_image_url: Faker::LoremPixel.image("50x60", true),
   description: Faker::Lorem.sentences(3),
   }])
 
 Event.create([{
+  name: Faker::Kpop.ii_groups,
   starts_at: '19:00',
   ends_at: '00:00',
   venue_id: 'Rose Garden',
-  hero_image_url: Faker::Avatar.image("50x50"),
+  hero_image_url: Faker::LoremPixel.image("50x60", true),
   description: Faker::Lorem.sentences(5),
   }])
 

@@ -19,6 +19,5 @@ RSpec.describe User, type: :model do
   it 'should save successfully' do
     expect(user.save).to eq(true)
   end
-
   # pending "add some examples to (or delete) #{__FILE__}"
 end
