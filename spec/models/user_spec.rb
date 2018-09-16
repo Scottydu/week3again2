@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  let(:user) { build(:user) } # User.new({})
+  let(:user) { build(:random_user) } # User.new({})
   # let(:user) { create(:user) } ... same as User.create({})
   # build does not save. Create is new + save
 
